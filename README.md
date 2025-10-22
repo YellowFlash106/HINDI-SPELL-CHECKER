@@ -211,23 +211,4 @@ Output line:
 
 
 Possible suggestion(s):
-- `महन` → `मोहन` (dist=1, freq=high)
-
-Troubleshooting
-- `FileNotFoundError: guwiki-latest-all-titles` or similar: run `data_loader.py` and/or provide a corpus path.
-- Unicode/terminal display issues: ensure your terminal/editor uses UTF-8.
-
-Cleanup (safe to delete)
-- `__pycache__/`, `*.pyc` (automatically re-generated)
-- `output.txt`, `output_dict.txt` (generated results)
-- `output/corpus.json` (corpus cache)
-- `hiwiki-latest-all-titles/` — delete only if you don't need to rebuild the index
-
-Authors & license
-- Student / Author: Your project (update author line as needed)
-- License: None specified
-
-If you want, I can now:
-- Build the index from the provided hiwiki titles file (may take a few minutes), or
-- Clean up generated caches/output files, or
-- Add a short Hindi section to the README for users who prefer instructions in Hindi.
+- `महन` → `मोहन` (dist=1, freq=high) 
