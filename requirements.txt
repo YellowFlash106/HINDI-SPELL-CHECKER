@@ -1,0 +1,10 @@
+# Core dependencies: none required beyond Python standard library for the basic runner
+# Optional dependencies for enhanced features:
+# gensim: provides KeyedVectors-based semantic reranking (optional)
+# pytest: for running the test suite (dev dependency)
+
+# Optional (semantic reranking)
+gensim>=4.0.0
+
+# Dev / testing
+pytest>=7.0.0

@@ -1,0 +1,61 @@
+HINDI SPELL CHECKER - OUTPUT RESULTS
+============================================================
+
+Line 1:
+----------------------------------------
+Original:  आज का मौसम बहुत सुन्दर ह, आसमान मे बादल छाए हुए ह।
+Corrected: आज का मौसम बहुत सुन्दर है, आसमान मे बादल छाप हुए है
+
+Misspelled Words (3):
+  'ह' -> है (dist=1, op=insertion, freq=1349), हम (dist=1, op=insertion, freq=692), यह (dist=1, op=insertion, freq=534), छह (dist=1, op=insertion, freq=511), वह (dist=1, op=insertion, freq=506)
+  'छाए' -> छाप (dist=1, op=substitution, freq=11), छाल (dist=1, op=substitution, freq=5), जाए (dist=1, op=substitution, freq=5), छा (dist=1, op=deletion, freq=4), वाए (dist=1, op=substitution, freq=4)
+  'ह।' -> है (dist=1, op=substitution, freq=1349), हम (dist=1, op=substitution, freq=692), हो (dist=1, op=substitution, freq=186), ही (dist=1, op=substitution, freq=95), हर (dist=1, op=substitution, freq=63)
+
+============================================================
+
+Line 2:
+----------------------------------------
+Original:  बच्चे खेल के मैदान मे फुटबाल खेल रह थे।
+Corrected: बच्चे खेल के मैदान मे फुटबाल खेल रह थे
+
+Misspelled Words (1):
+  'थे।' -> थे (dist=1, op=deletion, freq=509), थेर (dist=1, op=substitution, freq=2), थेन (dist=1, op=substitution, freq=1), थेह (dist=1, op=substitution, freq=1)
+
+============================================================
+
+Line 3:
+----------------------------------------
+Original:  मैने कल बजार से नयी किताब खरिदी।
+Corrected: मैन कल बजार से नयी किताब खरिदी।
+
+Misspelled Words (2):
+  'मैने' -> मैन (dist=1, op=deletion, freq=144), मैंने (dist=1, op=insertion, freq=22), माने (dist=1, op=substitution, freq=21), मैना (dist=1, op=substitution, freq=17), मैनी (dist=1, op=substitution, freq=11)
+  'खरिदी।' -> खिदीम (dist=2, freq=1)
+
+============================================================
+
+Line 4:
+----------------------------------------
+Original:  प्रधानमंत्री ने देश को सम्भोधन किया और नई निती की घोषना की।
+Corrected: प्रधानमंत्री ने देश को सम्बोधन किया और नई निजी की घोषणा की
+
+Misspelled Words (4):
+  'सम्भोधन' -> सम्बोधन (dist=1, op=substitution, freq=3)
+  'निती' -> निजी (dist=1, op=substitution, freq=41), नितीश (dist=1, op=insertion, freq=15), नितीन (dist=1, op=insertion, freq=14), नीती (dist=1, op=substitution, freq=7), निकी (dist=1, op=substitution, freq=6)
+  'घोषना' -> घोषणा (dist=1, op=substitution, freq=35), घोशना (dist=1, op=substitution, freq=2), घोषा (dist=1, op=deletion, freq=1)
+  'की।' -> की (dist=1, op=deletion, freq=11778), कीट (dist=1, op=substitution, freq=42), कीर (dist=1, op=substitution, freq=14), कीथ (dist=1, op=substitution, freq=9), कीप (dist=1, op=substitution, freq=7)
+
+============================================================
+
+Line 5:
+----------------------------------------
+Original:  हमारे सहर मे बहुत सारे परट्न स्थ्ल है जहाँ लोग घूमने आते है।
+Corrected: हमारे सहर मे बहुत सारे परट्न स्थल है जहाँ लोग घूमना आते है।
+
+Misspelled Words (3):
+  'परट्न' -> पर्व (dist=2, freq=120), रत्न (dist=2, freq=67), पर्ल (dist=2, freq=35), प्रश्न (dist=2, freq=33), परवीन (dist=2, freq=28)
+  'स्थ्ल' -> स्थल (dist=1, op=deletion, freq=663), स्प्ल (dist=1, op=substitution, freq=2), स्थूल (dist=1, op=substitution, freq=1)
+  'घूमने' -> घूमना (dist=1, op=substitution, freq=3), घूमनी (dist=1, op=substitution, freq=2)
+
+============================================================
+
