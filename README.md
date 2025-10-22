@@ -1,7 +1,10 @@
 <!-- prettier-ignore -->
 # IR Assignment — Hindi Spell Checker
 
+
 [![Python](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+
+Repository: https://github.com/YellowFlash106/HINDI-SPELL-CHECKER
 
 A compact toolkit to build a Hindi vocabulary from Wikipedia title dumps and run a frequency + edit-distance based spell checker.
 
@@ -26,12 +29,20 @@ Quick start (Windows cmd)
 
 1) Build index (auto-detects hiwiki if present):
 
+If you don't yet have the project locally, clone the repository and open a terminal in the project folder:
+
 ```cmd
-cd /d "c:\Users\jalwa\Desktop\IR\ir_Assi"
+git clone https://github.com/YellowFlash106/HINDI-SPELL-CHECKER.git
+cd HINDI-SPELL-CHECKER
+```
+
+If you already have the repository locally, open a terminal in the project folder and run:
+
+```cmd
 python data_loader.py
 ```
 
-If you have the titles file elsewhere, pass it explicitly:
+If your titles file is stored elsewhere, pass its path explicitly:
 
 ```cmd
 python data_loader.py path\to\hiwiki-latest-all-titles
@@ -94,7 +105,7 @@ Feel free to tell me which of the above to run next and I’ll execute it.
 1. Clone or download the project and open a terminal in the project folder:
 
 ```cmd
-cd /d "c:\Users\jalwa\Desktop\IR\ir_Assi"
+https://github.com/YellowFlash106/HINDI-SPELL-CHECKER
 ```
 
 2. (Recommended) Create and activate a virtual environment:
